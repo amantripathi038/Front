@@ -106,6 +106,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mybox {
     outline: 8px ridge rgba(170, 50, 220, .6);
     border-radius: 2rem;
 }
