@@ -122,6 +122,10 @@ label {
     display: inline-block;
 }
 
+.btn {
+    background-color: rgba(170, 50, 220, .6);
+}
+
 @media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
