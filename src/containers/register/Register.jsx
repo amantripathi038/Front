@@ -77,6 +77,12 @@ function Register() {
                 x.style.visibility = "visible"
                 y.style.visibility = "visible"
                 console.log(data)
+                swal({
+                    title: "OTP sent successfully!",
+                    text: "On your mobile: " + {contact},
+                    icon: "success",
+                    button: "OK",
+                });
             }
             else alert("Something went wrong.")
         }
@@ -85,8 +91,10 @@ function Register() {
     return (
         <div className="gpt3__header section__padding" id="home">
             <div className="gpt3__header-content">
-                <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-                <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                <h1 className="gradient__text">Create an account !</h1>
+                <p>Sign Up on our website to get calls from organic customers and maximize your earnings !</p>
+                <p>No Hidden Costs || No Brokerage || No Fake Promotions</p>
+                <p>For any queries or suggestions feel free to reach us.</p>
             </div>
 
             <div className="gpt3__header-image mybox">

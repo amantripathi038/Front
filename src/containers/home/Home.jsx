@@ -5,12 +5,18 @@ import './home.css';
 const Home = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <h1 className="gradient__text">Domestica <br /> The Home Service App</h1>
+      <p>
+        Get real customers on call just by making your identity visible on our app.
+        List your services and cost and we will do the rest.
+      </p>
+      <p>
+        Sign Up Today !
+      </p>
     </div>
 
     <div className="gpt3__header-image">
-      <img src={workers} alt="Workers"/>
+      <img src={workers} alt="Workers" />
     </div>
   </div>
 );

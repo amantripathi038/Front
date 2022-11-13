@@ -13,8 +13,9 @@ const Navbar = () => {
         </div> */}
         <div className="gpt3__navbar-links_container">
           <p><a href="/">Home</a></p>
-          <p><a href="#possibility">About Us</a></p>
-          <p><a href="#features">Contact Us</a></p>
+          <p><a href="#whatDomestica">What is DOMESTICA</a></p>
+          <p><a href="#contactus">Contact Us</a></p>
+          <p><a href="#app">Download App</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
@@ -31,8 +32,9 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <p><a href="/">Home</a></p>
-              <p><a href="#possibility">About Us</a></p>
-              <p><a href="#features">Contact Us</a></p>
+              <p><a href="#whatDomestica">What is DOMESTICA</a></p>
+              <p><a href="#contactus">Contact Us</a></p>
+              <p><a href="#app">Download App</a></p>
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">
               <p>Sign in</p>
