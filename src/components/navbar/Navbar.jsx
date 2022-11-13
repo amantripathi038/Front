@@ -3,7 +3,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [ toggleMenu, setToggleMenu ] = useState(false);
 
   return (
     <div className="gpt3__navbar">
@@ -38,7 +38,9 @@ const Navbar = () => {
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">
               <p>Sign in</p>
-              <button type="button">Sign up</button>
+              <a href="/register">
+                <button type="button" >Sign up</button>
+              </a>
             </div>
           </div>
         )}
